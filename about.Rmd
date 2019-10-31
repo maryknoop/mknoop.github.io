@@ -1,0 +1,66 @@
+---
+title: "Resume"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: yeti
+---
+
+**EDUCATION**
+
+**Columbia University Mailman School of Public Health**:  *Master of Public Health Candidate*	     	          			Graduation May 2020
+Department of Epidemiology, Certificate: Applied Biostatistics
+
+**The City College of New York**: *Post-Baccalaureate in Pre-Medical Studies*  
+Class of 2016
+
+**The George Washington University, School of Business**: *Bachelors in Business Administration*		   			      Class of 2009
+
+**TECHNICAL SKILLS**:  Proficient: SAS, R, SQL, STATA, Ayasdi, Kronos, Peoplesoft, Microsoft Office // Familiar: PICrust, LeFSA
+
+**PROFESSIONAL EXPERIENCE**
+
+**Columbia Center for Infection and Immunity**; *Research Assistant*,  New York, NY           		      	           January 2019-Present
+·	Lead RA for a Mother-Infant longitudinal cohort study investigating maternal mental health and infant development through the lens of the human microbiome with the use of Ayasdi, a machine learning platform, linear discriminate analysis, logistic regression, and other statistical methods
+·	Use topological data analysis to evaluate bacterial abundance in relation to anthropometric data, diet, human milk oligosaccharide concentrations, breast milk micronutrients, etc. to deepen our understanding of the role of the microbiome in mothers and infants
+
+**Two Blind Brothers**; *Lead Project Manager*,  New York, NY           		                   	              			February 2018-March 2019
+·	Analyze budgetary and sales data to maximize company efficiency while leading project and relationship management with our primary client contact (Foundation Fighting Blindness) to support 5 on-going clinical trials in the field of inherited retinal disease research
+·	Manage all company operations including, but not limited to: product fulfillment, speciality project budget and merchandise pricing, customer service, raw material sourcing, vendor relations, production support, in-house accounting/finance, HR, corporate partnerships
+
+**New York Presbyterian Morgan Stanley Children’s Hospital**; *Certified Nurse Assistant Aid*,  New York, NY       September 2017-May 2018
+·	Worked in the Low-Income Neurology Clinic with pediatric patients with inherited neurological disorders or traumatic brain injuries to aid in art projects to distract from challenging treatments
+·	Worked with families and parents in the Pediatric Oncology Clinic to incorporate similar stress-relieving experiences to balance strenuous treatments/therapies
+
+**Dino**; *General Manager*,   Brooklyn, NY (employment while completing post baccalaureate)  		         			    September 2014-May 2017
+·	Managed all operations of a 12-table restaurant and 50-person private dining space including but not limited to inventory management, quarterly sales reviews, training and education, seasonal creative direction, and community outreach
+·	Managed all customer service relations and human resources for all floor servers, bar tenders, floor managers, and kitchen staff
+
+**St. Anthony’s Free Clinic**; *Pediatric Clinic Aid*,  Bronx, NY             			             		      	         September 2014-June 2016
+·	Analyzed clinic flow to determine staffing ratios, stock levels, and proposed/implemented data-based process improvement strategies such as staggered entry times, clinic flow modifications, and efficient usage of the waiting area
+·	Managed pediatric patient triage, and administered vaccines required for public school enrollment (Tdap, MMR, HepB, etc.) as well as other necessary patient specific vaccinations (Gardasil)
+
+**Massachusetts General Hospital**,  Boston, MA		  								         
+*Staff Assistant III, Emergency Department* (per diem starting June 2013)	   	                    	           October 2011-June 2013
+·	Provided administrative support for the Director of ED Operations, Director of ED Quality & Safety, ED Nurse Practitioner Program, ED Physician Assistant Program, and the ED Access RN Program
+·	Maintained ED Q&S data reporting on Patient Experience, Hand Hygiene, Clinician Productivity Rates, STEMI/Stroke Target Times, and other monthly departmental QA reports
+·	Initiated program development for an ED HIV Testing Program following the change in MA state consent laws. 
+
+*Patient Care Associate,Emergency Department Observation Unit*           			              		   		        June 2013-June 2014
+·	Provided nursing assistance to patients on the unit, including but not limited to: floor phlebotomy orders, obtaining vital signs, electrocardiograms, glucometer maintenance, basic wound care, hourly patient rounding, ADLs
+·	Worked with nursing leadership and management to develop standardized practices, such as a floor PCA flow sheet, to better organize the PCA staff and streamline patient care
+
+*Access Nurse (non-clinical), Emergency Department (per diem)*                                                 June 2013 – June 2014
+·	Accepted all phone calls for transfers and referrals into the MGH Emergency Department on behalf of the attending physician which included receiving all relevant clinical and admitting info from the transferring physician and interfaced directly with the attending physician to coordinate the transfer/referral. 
+·	Worked directly with ED clinical leadership to monitor bed status, specialty service availability, and overall department capacity
+
+**CERTIFICATIONS & PRESENTATIONS**
+
+HIPPA Certified, CITI Program Completion: Human Subjects Protection Biomed  
+
+13th Annual Observation Management Summit, Presenter Chicago, IL					                       		        
+Improving Observation Care by Building an Accountable and Efficient Care Team
+
+American Red Cross, Boston MA: Certified Nurse Assistant/ Home Health Aide				       	         		                 
+
