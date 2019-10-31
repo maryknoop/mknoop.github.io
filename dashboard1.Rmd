@@ -7,13 +7,22 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-library(flexdashboard) 
+library(flexdashboard)
 library(tidyverse)
 library(plotly)
 library(p8105.datasets)
 library(ggridges)
+```
 
-```{r, echo = FALSE, message = FALSE, warning = FALS}
+
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r, warning = FALSE}
 weather_df = 
   rnoaa::meteo_pull_monitors(c("USW00094728", "USC00519397", "USS0023B17S"),
                       var = c("PRCP", "TMIN", "TMAX"), 
@@ -27,16 +36,13 @@ weather_df =
     tmax = tmax / 10) %>%
   select(name, id, everything())
 weather_df
-```
 
-
-
-### Chart A
-
-```{r, echo = FALSE, message = FALSE, warning = FALSE}
 ggplot(weather_df, aes(x = tmin, y = tmax)) + 
   geom_point()
 ```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
 
 ### Chart B
 
@@ -53,7 +59,3 @@ ggplot(weather_df, aes(x = tmin, y = tmax)) +
   geom_smooth(se = FALSE)
 ```
 
-
-```{r}
-rmarkdown::render("dashboard.Rmd", output_format = "flexdashboard::flex_dashboard")
-```
