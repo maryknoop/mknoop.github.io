@@ -1,5 +1,5 @@
 ---
-title: "Dashboard"
+title: "dashboard"
 output: 
   html_document: 
     toc: true
@@ -14,7 +14,7 @@ library(plotly)
 library(p8105.datasets)
 library(ggridges)
 
-
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
 weather_df = 
   rnoaa::meteo_pull_monitors(c("USW00094728", "USC00519397", "USS0023B17S"),
                       var = c("PRCP", "TMIN", "TMAX"), 
@@ -35,7 +35,8 @@ Column {data-width=650}
 
 ### Chart A
 
-```{r}
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
 ggplot(weather_df, aes(x = tmin, y = tmax)) + 
   geom_point()
 ```
+
