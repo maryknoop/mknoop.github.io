@@ -2,9 +2,9 @@
 title: "Dashboard"
 output: 
   html_document: 
-  toc: true
-  toc_float: true
-  theme: yeti 
+    toc: true
+    toc_float: true
+    theme: yeti 
 ---
 
 ```{r setup, include=FALSE}
