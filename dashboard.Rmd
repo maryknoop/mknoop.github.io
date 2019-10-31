@@ -11,6 +11,7 @@ library(flexdashboard)
 library(tidyverse)
 library(plotly)
 library(p8105.datasets)
+library(ggridges)
 
 
 weather_df = 
