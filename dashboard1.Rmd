@@ -15,15 +15,7 @@ library(ggridges)
 library(viridis)
 ```
 
-
-
-
-Column {data-width=650}
------------------------------------------------------------------------
-
-### Chart A
-
-```{r, include = FALSE}
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
 weather_df = 
   rnoaa::meteo_pull_monitors(c("USW00094728", "USC00519397", "USS0023B17S"),
                       var = c("PRCP", "TMIN", "TMAX"), 
@@ -37,7 +29,16 @@ weather_df =
     tmax = tmax / 10) %>%
   select(name, id, everything())
 weather_df
+```
 
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
 ggplot(weather_df, aes(x = tmin, y = tmax)) + 
   geom_point()
 ```
