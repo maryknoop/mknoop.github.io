@@ -30,8 +30,7 @@ weather_df =
 weather_df
 ```
 
-Column {data-width=650}
------------------------------------------------------------------------
+
 
 ### Chart A
 
@@ -40,3 +39,17 @@ ggplot(weather_df, aes(x = tmin, y = tmax)) +
   geom_point()
 ```
 
+### Chart B
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+ggplot(weather_df, aes(x = tmin, y = tmax)) + 
+  geom_point(aes(color = name))
+```
+
+### Chart C
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+ggplot(weather_df, aes(x = tmin, y = tmax)) + 
+  geom_point(aes(color = name), alpha = .5) +
+  geom_smooth(se = FALSE)
+```
