@@ -12,6 +12,7 @@ library(tidyverse)
 library(plotly)
 library(p8105.datasets)
 library(ggridges)
+library(viridis)
 ```
 
 
@@ -22,7 +23,7 @@ Column {data-width=650}
 
 ### Chart A
 
-```{r, warning = FALSE}
+```{r, include = FALSE}
 weather_df = 
   rnoaa::meteo_pull_monitors(c("USW00094728", "USC00519397", "USS0023B17S"),
                       var = c("PRCP", "TMIN", "TMAX"), 
