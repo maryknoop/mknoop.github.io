@@ -37,11 +37,12 @@ weather_df
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### MChart A
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
-ggplot(weather_df, aes(x = tmin, y = tmax)) + 
-  geom_point()
+weather_df %>%
+ plot_ly(
+    x = ~tmin, y = ~tmax, type = "scatter", mode = "markers", alpha = 0.5)
 ```
 
 Column {data-width=350}
