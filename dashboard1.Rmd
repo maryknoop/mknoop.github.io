@@ -6,7 +6,7 @@ output:
     vertical_layout: fill
 ---
 
-```{r setup, include=FALSE}
+```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
 library(flexdashboard)
 library(tidyverse)
 library(plotly)
@@ -37,7 +37,7 @@ weather_df
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### MChart A
+### Minimum and Maximum Temperatures within Dataset
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 weather_df %>%
@@ -48,18 +48,17 @@ weather_df %>%
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Minimum Temperatures by Location
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
-ggplot(weather_df, aes(x = tmin, y = tmax)) + 
-  geom_point(aes(color = name))
+weather_df %>%
+  plot_ly(y = ~tmin, color = ~name, type = "violin")
 ```
 
-### Chart C
+### Precipitation by Location
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
-ggplot(weather_df, aes(x = tmin, y = tmax)) + 
-  geom_point(aes(color = name), alpha = .5) +
-  geom_smooth(se = FALSE)
+weather_df %>%
+  plot_ly(y = ~prcp, color = ~name, type = "box")
 ```
 
